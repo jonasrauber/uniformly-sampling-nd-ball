@@ -17,7 +17,7 @@ All experiments were run on a 64 core Intel Xeon processor and an Nvidia Tesla V
 NumPy
 -----
 
-.. code-block:: python
+.. code-block::
 
         1 @ 1000 repeats: 5.60e-02 vs. 4.07e-02 -> alternative takes 0.7x as long
         2 @ 1000 repeats: 5.66e-02 vs. 3.99e-02 -> alternative takes 0.7x as long
@@ -43,7 +43,7 @@ NumPy
 PyTorch
 -------
 
-.. code-block:: python
+.. code-block::
 
         1 @ 1000 repeats: 1.20e-01 vs. 8.31e-02 -> alternative takes 0.7x as long
         2 @ 1000 repeats: 1.18e-01 vs. 8.20e-02 -> alternative takes 0.7x as long
@@ -69,7 +69,7 @@ PyTorch
 PyTorch (GPU)
 -------------
 
-.. code-block:: python
+.. code-block::
 
         1 @ 1000 repeats: 4.47e+00 vs. 1.46e-01 -> alternative takes 0.0x as long
         2 @ 1000 repeats: 2.28e-01 vs. 1.45e-01 -> alternative takes 0.6x as long
@@ -95,7 +95,7 @@ PyTorch (GPU)
 TensorFlow (GPU)
 ----------------
 
-.. code-block:: python
+.. code-block::
 
         1 @ 1000 repeats: 6.74e-01 vs. 4.15e-01 -> alternative takes 0.6x as long
         2 @ 1000 repeats: 6.78e-01 vs. 4.15e-01 -> alternative takes 0.6x as long
@@ -121,7 +121,7 @@ TensorFlow (GPU)
 JAX (GPU)
 ---------
 
-.. code-block:: python
+.. code-block::
 
         1 @ 1000 repeats: 3.79e+00 vs. 3.35e+00 -> alternative takes 0.9x as long
         2 @ 1000 repeats: 3.10e+00 vs. 3.39e+00 -> alternative takes 1.1x as long

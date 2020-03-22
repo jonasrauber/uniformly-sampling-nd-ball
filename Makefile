@@ -10,13 +10,13 @@ run:
 readme:
 	-rm README.rst
 	cp README.raw.rst README.rst
-	echo "\nNumPy\n-----\n\n.. code-block:: python\n" >> README.rst
+	echo "\nNumPy\n-----\n\n.. code-block::\n" >> README.rst
 	cat results/numpy.txt >> README.rst
-	echo "\nPyTorch\n-------\n\n.. code-block:: python\n" >> README.rst
+	echo "\nPyTorch\n-------\n\n.. code-block::\n" >> README.rst
 	cat results/pytorch.txt >> README.rst
-	echo "\nPyTorch (GPU)\n-------------\n\n.. code-block:: python\n" >> README.rst
+	echo "\nPyTorch (GPU)\n-------------\n\n.. code-block::\n" >> README.rst
 	cat results/pytorch-gpu.txt >> README.rst
-	echo "\nTensorFlow (GPU)\n----------------\n\n.. code-block:: python\n" >> README.rst
+	echo "\nTensorFlow (GPU)\n----------------\n\n.. code-block::\n" >> README.rst
 	cat results/tensorflow.txt >> README.rst
-	echo "\nJAX (GPU)\n---------\n\n.. code-block:: python\n" >> README.rst
+	echo "\nJAX (GPU)\n---------\n\n.. code-block::\n" >> README.rst
 	cat results/jax.txt >> README.rst
